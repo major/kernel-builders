@@ -1,0 +1,4 @@
+upgrade
+install dnf-plugins-core bison flex python python-pip
+builddep kernel
+clean all
