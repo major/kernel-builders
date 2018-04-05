@@ -1,4 +1,4 @@
 upgrade
-install dnf-plugins-core bison flex python python-pip git "@Development Tools"
+install dnf-plugins-core bison flex python python-pip git "@Development Tools" elfutils-libelf-devel
 builddep kernel
 clean all
