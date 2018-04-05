@@ -1,4 +1,4 @@
 upgrade
-install dnf-plugins-core bison flex python python-pip
+install dnf-plugins-core bison flex python python-pip git
 builddep kernel
 clean all
