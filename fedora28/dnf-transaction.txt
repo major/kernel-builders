@@ -1,0 +1,4 @@
+upgrade
+install dnf-plugins-core bison flex git "@Development Tools" elfutils-libelf-devel openssl-devel bc hostname xz
+builddep kernel
+clean all
