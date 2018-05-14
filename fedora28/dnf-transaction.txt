@@ -1,4 +1,16 @@
 upgrade
-install dnf-plugins-core bison flex git "@Development Tools" elfutils-libelf-devel openssl-devel bc hostname xz
-builddep kernel
-clean all
+install procps-ng hostname htop openssl
+# For skt
+install beaker-client python-krbV
+# For kernel builds
+install "@Development Tools" bc bison dnf-plugins-core elfutils-libelf-devel flex git ncurses-devel openssl openssl-devel xz
+# For Jenkins to run its slave agent
+install java-1.8.0-openjdk java-1.8.0-openjdk-headless sudo
+# For aarch64
+install binutils-aarch64-linux-gnu gcc-aarch64-linux-gnu gcc-c++-aarch64-linux-gnu
+# For ppc64
+install binutils-powerpc64le-linux-gnu gcc-powerpc64le-linux-gnu gcc-c++-powerpc64le-linux-gnu
+# For ppc64le
+install binutils-s390x-linux-gnu gcc-s390x-linux-gnu gcc-c++-s390x-linux-gnu
+# For x86_64
+install binutils-x86_64-linux-gnu gcc-x86_64-linux-gnu gcc-c++-x86_64-linux-gnu
