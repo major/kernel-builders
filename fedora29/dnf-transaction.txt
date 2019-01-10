@@ -1,5 +1,5 @@
 upgrade
-install procps-ng hostname htop openssl
+install createrepo procps-ng hostname htop openssl
 # For skt
 install beaker-client python-krbV
 # For kernel builds
