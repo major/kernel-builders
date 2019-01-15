@@ -1,4 +1,4 @@
 upgrade
-install "@Development Tools" createrepo yum-utils bison flex python git elfutils-libelf-devel openssl-devel bc hostname xz epel-release wget
+install "@Development Tools" createrepo yum-utils bison flex python git elfutils-libelf-devel openssl-devel bc hostname xz epel-release wget ccache rsync
 clean all
 run
